@@ -1,0 +1,131 @@
+body{
+    familia de fuentes: 'Playfair Display', serif;
+    max-width: 950px;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(207, 179, 233);
+}
+nav ul li{
+
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+    
+}
+nav ul li:hover{
+    background-color:pink;
+} 
+.img-logo{
+    width: 180px;
+    padding: 20px;
+}
+
+nav ul{
+    padding-top: 60px;
+    display: inline-flex
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black
+}
+
+h2, figure, ul{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/* seccion 1 */
+.seccion1{
+    background-color: rgb(204, 167, 239);
+}
+
+.video{
+    width: 55%;
+    padding: 10px;
+   
+
+}
+
+
+
+.texto{
+    width: 30%;
+    padding: 10px;
+}
+
+.textovideo{
+    width: 40%;
+    padding: 0px;
+}
+
+.article{
+    padding: 30px;
+    background-color: rgb(197, 157, 234);
+}
+.article h2{
+border-bottom: 1px solid black;
+}
+.texto,.video{
+    display:inline-block
+}
+.boton{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+.boton:hover{
+    background:  rgb(204, 167, 239);
+}
+section{
+    background-color: rgb(204, 167, 239);
+    padding: 15px;
+}
+.img-art{
+    max-width: 100%;
+}
+.cont-art{
+    width: 740px;
+    vertical-align: top;
+
+}
+
+.contenedor {
+    column-count: 2;
+    column-gap: 20px; /* Espacio entre columnas, puedes ajustar este valor según tus preferencias */
+}
+
+p {
+    margin-bottom: 10px; /* Añade espacio entre párrafos para mejorar la legibilidad */
+}
+
+.contenido {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #ccc; /* Solo para visualización */
+}
+hr {
+    height: 20px; /* Ajusta la altura según sea necesario */
+    background-color: purple; /* Color de la línea */
+    border: none; /* No mostrar el borde predeterminado */
+    margin: 20px 0; /* Añade espacio alrededor de la línea */
+
+}
+
+.custom-column {
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px; /* Espacio entre columnas */
+    padding: 15px;
+    text-align: center;
+}
